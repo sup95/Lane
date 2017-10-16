@@ -19,13 +19,28 @@ body, html {
     top: 30%;
     width: 100%;
     text-align: center;
-    color: #000;
 }
 
 .clock  {
-    background-color: #111;
     color: #fff;
     padding: 18px;
     font-size: 50px;
     letter-spacing: 10px;
+}
+
+.quote_container  {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.quote  {
+    font-family: 'Sofia';
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
