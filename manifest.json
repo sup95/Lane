@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "MyNewTab",
+  "name": "Lane",
   "version": "2.1",
   "description": "Personalised New Tab",
   "chrome_url_overrides": {
