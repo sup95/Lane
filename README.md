@@ -1,2 +1,2 @@
 # Lane
-Personalized Chrome Extension
+Personalized Chrome Extension for New Tab
