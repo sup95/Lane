@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+
+  "name": "MyNewTab",
+  "version": "2.1",
+  "description": "Personalised New Tab",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
