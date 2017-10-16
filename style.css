@@ -13,3 +13,19 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.clock_container  {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.clock  {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
