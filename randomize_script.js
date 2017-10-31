@@ -23,7 +23,8 @@ function getRandromQuote()  {
     "Living in Inertia. :P",
     "Simple and Sophisticated. :)",
     "Live. Laugh. Love.",
-    "Keep It Simple"
+    "Keep It Simple",
+    "Theri Baby"
     
   ]
 
