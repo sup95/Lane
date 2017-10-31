@@ -22,7 +22,9 @@ function getRandromQuote()  {
     "Passionately Curious. :)",
     "Living in Inertia. :P",
     "Simple and Sophisticated. :)",
-    "Live. Laugh. Love."
+    "Live. Laugh. Love.",
+    "Keep It Simple"
+    
   ]
 
   return quotes[Math.floor(Math.random() * quotes.length)];
