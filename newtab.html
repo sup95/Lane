@@ -5,12 +5,17 @@
     <title>New Tab</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   </head>
 
   <body>
     <div class = "bg" id = "bg">
-      <div class = "overflow_menu">
-        <span class = "overflow_menu_icon"">&#9776; Opwn Menu"</span>
+      <div class = "overflow_menu" id = "overflow_menu">
+        <span class = "overflow_menu_icon" onClick = "openNotesMenu()">&#9776;</span>
       </div>
       <div class = "clock_container">
         <span class = "clock" id = "clock"></span>
@@ -18,10 +23,16 @@
       <div class = "quote_container">
         <em> <span class = "quote" id = "quote">Explore. Dream. Discover.</span> </em>
       <div>
+      <div id="notesSideNav" class="sidenav">
+        <span class = "closebtn" onclick = "closeNav()">&times;</span>
+        <div class = "notes_header" id = "notes_header" contenteditable="true">My Notes</div>
+        <div class = "notes_body" id = "notes_body" contenteditable="true">My Notes Body</div>
+      </div>
     </div>
   </body>
 
   <script src="randomize_script.js"></script>
   <script src="clock.js"></script>
+  <script src="notes_menu.js"></script>
 
 </html>
