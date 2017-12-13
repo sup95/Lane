@@ -7,3 +7,9 @@ function closeNav() {
     document.getElementById("notesSideNav").style.width = "0";
     document.getElementById("overflow_menu").style.visibility = "visible";
 }
+
+$(document).ready(
+  function() {
+    $("notes_body").niceScroll();
+  }
+);

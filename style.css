@@ -3,6 +3,19 @@ body, html {
     margin: 0;
 }
 
+::-webkit-scrollbar {
+      width: 5px;
+}
+
+::-webkit-scrollbar-track {
+      /*background-color: rgba(129, 129, 129, 0.5);*/
+      background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: #818181;
+}
+
 .bg {
 
     height: 100%;
@@ -104,5 +117,11 @@ body, html {
     color: #e2e2e2;
     overflow:hidden;
     overflow-y: auto;
+    height: 80%;
     max-height:80%;
+}
+
+[contenteditable]:focus {
+    /*outline: 2px solid #666666;*/
+    outline: 0px solid transparent;
 }
