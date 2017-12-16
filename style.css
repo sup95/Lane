@@ -88,8 +88,8 @@ body, html {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 12px;
-    right: 20px;
+    top: 8px;
+    right: 18px;
     font-size: 36px;
     color: #818181;
     cursor: pointer;
@@ -115,6 +115,7 @@ body, html {
 
 .sidenav .notes_header  {
     font-family: 'Spectral SC', serif;
+    font-size: 16px;
     position: absolute;
     top: 20px;
     left: 10px;
@@ -126,6 +127,7 @@ body, html {
 
 .sidenav .notes_body  {
     font-family: 'Nunito', sans-serif;
+    font-size: 16px;
     position: relative;
     top: 20px;
     left: 10px;

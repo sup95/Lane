@@ -8,8 +8,5 @@ function closeNav() {
     document.getElementById("overflow_menu").style.visibility = "visible";
 }
 
-$(document).ready(
-  function() {
-    $("notes_body").niceScroll();
-  }
-);
+document.getElementById("overflow_menu_icon").onclick = openNotesMenu;
+document.getElementById("closebtn").onclick = closeNav;
