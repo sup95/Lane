@@ -3,6 +3,19 @@ body, html {
     margin: 0;
 }
 
+::-webkit-scrollbar {
+      width: 5px;
+}
+
+::-webkit-scrollbar-track {
+      /*background-color: rgba(129, 129, 129, 0.5);*/
+      background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: #818181;
+}
+
 .bg {
 
     height: 100%;
@@ -12,6 +25,20 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.overflow_menu_icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  padding-top: 3px;
+  padding-right: 7px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  font-size: 30px;
+  background-color: #000;
+  cursor: pointer;
 }
 
 .clock_container  {
@@ -43,4 +70,78 @@ body, html {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 2px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    font-size: 36px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.sidenav .save_notes_container  {
+    position: absolute;
+    right: 30px;
+    font-size: 36px;
+    color: #818181;
+    margin-top: 10px;
+}
+
+.sidenav .save_notes_container button {
+  background-color: transparent;
+  border: transparent;
+  width:10px;
+  height:10px;
+  padding: 17px;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav .notes_header  {
+    font-family: 'Spectral SC', serif;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    padding: 5px;
+    width: 300px;
+    text-align: left;
+    color: #e2e2e2;
+}
+
+.sidenav .notes_body  {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 5px;
+    width: 360px;
+    text-align: left;
+    color: #e2e2e2;
+    overflow:hidden;
+    overflow-y: auto;
+    height: 80%;
+    max-height:80%;
+}
+
+[contenteditable]:focus {
+    /*outline: 2px solid #666666;*/
+    outline: 0px solid transparent;
 }
